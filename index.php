@@ -71,8 +71,5 @@
     </footer>
 
     <jdoc:include type="modules" name="debug" />
-
-    <!-- <script src="templates/transalley-v2/build/app.js"></script>
-    <script src="templates/transalley-v2/js/script-min.js"></script> -->
   </body>
 </html>
