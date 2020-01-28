@@ -1,0 +1,24 @@
+// Left Col Main Styles
+
+.left-col {
+  font-family: $font-family-condensed;
+  font-size: $font-size-body-condensed;
+
+  h1, h2, h3,
+  .h1, .h2, .h3 {
+    font-family: $font-family-condensed;
+    font-weight: $font-weight-bolder;
+  }
+
+  .moduletable {
+    margin-bottom: ($spacer * 2);
+  }
+
+  .contact-people {
+    h3 {
+      + p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

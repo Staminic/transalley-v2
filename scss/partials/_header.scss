@@ -1,0 +1,37 @@
+// Brand Header Styles
+
+#header {
+  padding-top: $navbar-brand-padding-y;
+  padding-bottom: $navbar-brand-padding-y;
+
+  @include media-breakpoint-up(mdlg) {
+    padding: 0;
+  }
+}
+
+.brand {
+  background-image: url('../img/banner-mobile.svg');
+  background-color: $white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+
+  @include media-breakpoint-up(sm) {
+    background-position: center right;
+  }
+
+  @include media-breakpoint-up(mdlg) {
+    background-image: url('../img/banner-desktop.svg');
+  }
+}
+
+.navbar-brand {
+  @include media-breakpoint-down(md) {
+    padding-top: 0;
+  }
+
+  img {
+    width: 265px;
+  }
+}

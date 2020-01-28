@@ -1,0 +1,81 @@
+// TEMPLATE STYLES
+
+// bootstrap overrides only (taken from variables.scss)
+// hint: write values without !default
+
+$brandgreen:  #50AE2F;
+$brandblue:   #007C9A;
+$blue:        #007bff;
+$indigo:      #6610f2;
+$purple:      #6f42c1;
+$pink:        #e83e8c;
+$red:         #dc3545;
+$orange:      #fd7e14;
+$yellow:      #fedc00;
+$green:       #28a745;
+$teal:        #20c997;
+$cyan:        #17a2b8;
+$gray:        #AFB4BC;
+$darkgray:    #474747;
+$lightblue:    #82D0F6;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary":    $brandgreen,
+    "secondary":  $brandblue,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "white":      $white,
+    "black":      $black,
+    "darkgray":  $darkgray
+  ),
+  $theme-colors
+);
+
+$font-family-sans-serif: 'Barlow', sans-serif;
+$font-family-condensed: 'Barlow Condensed', sans-serif;
+
+$enable-responsive-font-sizes: true;
+
+$font-size-body: $font-size-base; // 16px
+$font-size-body-condensed: $font-size-base * 1.125; // 18px
+$h1-font-size: ($font-size-body * 2); // 32px
+$h2-font-size: ($font-size-body * 1.5); // 24px
+$h3-font-size: ($font-size-body * 1.25); // 20px
+
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+
+$link-color: $brandblue;
+$link-hover-color: $brandblue;
+$dropdown-link-hover-color: $brandblue;
+$dropdown-link-hover-bg: transparent;
+
+$navbar-toggler-padding-x: 0;
+$navbar-toggler-padding-y: 0;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  mdlg: 800px,
+  lg: 992px,
+  xl: 1200px
+);
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  mdlg: 768px,
+  lg: 960px,
+  xl: 1010px
+);
+@include _assert-ascending($container-max-widths, "$container-max-widths");

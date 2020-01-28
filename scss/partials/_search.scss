@@ -1,0 +1,24 @@
+
+// Search Form & Search results Styles
+
+.form-search {
+  max-width: 12rem;
+  margin-left: $nav-link-padding-x;
+
+  &.input-group {
+    .form-control {
+      background-clip: inherit;
+      border-color: $white;
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+      color: $brandblue;
+    }
+  }
+
+  .btn {
+    background-color: $white;
+    border-color: $white;
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+  }
+}

@@ -1,0 +1,79 @@
+@import "partials/layout";
+@import "partials/menus";
+@import "partials/mobilenav";
+@import "partials/leftcol";
+@import "partials/newsletter";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/search";
+@import "partials/medias";
+@import "partials/breadcrumb";
+@import "partials/card";
+@import "partials/pagination";
+@import "partials/pages/homepage";
+@import "partials/pages/team";
+@import "partials/pages/contact";
+
+// TEMPLATE STYLES
+
+body {
+  color: $darkgray;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-body;
+  font-weight: $font-weight-normal;
+}
+
+h1, h2, h3,
+.h1, .h2, .h3 {
+  font-family: $font-family-sans-serif;
+}
+
+h1, .h1 {
+  line-height: $headings-line-height;
+  color: $brandgreen;
+  font-size: $h1-font-size;
+  font-weight: bolder;
+}
+
+h2, .h2 {
+  margin-top: ($spacer * 2);
+  line-height: $headings-line-height;
+  font-size: $h2-font-size;
+  font-weight: $font-weight-bold;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+}
+
+ul {
+  padding-left: $spacer;
+}
+
+b,
+strong {
+  font-weight: $font-weight-bold;
+
+  &.bolder {
+    font-weight: $font-weight-bolder;
+  }
+}
+
+.nav-pills {
+  .nav-link,
+  &.active {
+    background-color: $brandgreen;
+    color: $white;
+  }
+}
+
+.badge {
+  font-family: $font-family-condensed;
+  font-size: 100%;
+  font-weight: $font-weight-bold;
+}
+
+time {
+  font-family: $font-family-condensed;
+  font-weight: $font-weight-bold;
+}

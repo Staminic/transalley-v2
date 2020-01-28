@@ -1,0 +1,54 @@
+// Images & Other Media Styles
+
+.item-image {
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.contact-portrait {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+
+   img {
+     width: 150px;
+     height: auto;
+     object-fit: cover;
+     object-position: center;
+   }
+}
+
+.img-fullheight {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wf_file_size {
+  &::before {
+    content: "(";
+  }
+
+  &::after {
+    content: ")";
+  }
+}
+
+a[href*=".doc"] {
+  .wf_file_text {
+    &::before {
+      content: "\f1c2";
+      display: inline-block;
+      margin-right: ($spacer * .325);
+      font-family: 'Font Awesome 5 Free';
+      font-size: 200%;
+      font-weight: 900;
+    }
+  }
+}

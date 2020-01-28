@@ -1,0 +1,25 @@
+// Breadcrumb Styles
+
+.breadcrumb {
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  font-family: $font-family-condensed;
+}
+
+.breadcrumb-item {
+  &[data-href*="tags"] {
+    display: none;
+  }
+
+  a[href*="#"] {
+    color: $breadcrumb-active-color;
+
+    &:hover {
+      color: $breadcrumb-active-color;
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+}

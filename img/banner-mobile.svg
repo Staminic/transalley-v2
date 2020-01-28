@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 106.22">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-9 {
+        fill: none;
+        stroke-width: 2.26px;
+      }
+
+      .cls-1 {
+        stroke: #83d0f5;
+      }
+
+      .cls-2 {
+        stroke: #ffdc00;
+      }
+
+      .cls-3, .cls-9 {
+        stroke: #52ae32;
+      }
+
+      .cls-4 {
+        stroke: #007c9b;
+      }
+
+      .cls-4, .cls-9 {
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #52ae32;
+      }
+
+      .cls-6 {
+        fill: #ffdc00;
+      }
+
+      .cls-7 {
+        fill: #83d0f5;
+      }
+
+      .cls-8 {
+        fill: #007c9b;
+      }
+    </style>
+  </defs>
+  <title>banner-mobile</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <g>
+        <path class="cls-1" d="M0,55.44H573.88s23.06,0,23.06-23.06V25.09"/>
+        <path class="cls-2" d="M0,44.63H613.86s23.06,0,23.06,23.06V83"/>
+        <path class="cls-3" d="M0,34H557.35S580.42,34,580.42,57v1.31"/>
+        <path class="cls-4" d="M515.28,46.12s0-23.06,23.06-23.06H800"/>
+        <path class="cls-5" d="M574.11,45a3.53,3.53,0,1,0,3.53-3.52A3.53,3.53,0,0,0,574.11,45"/>
+        <path class="cls-4" d="M515.25,42s0,23.07-23.06,23.07H0"/>
+        <path class="cls-6" d="M511.65,45a3.53,3.53,0,1,0,3.53-3.52A3.53,3.53,0,0,0,511.65,45"/>
+        <path class="cls-7" d="M508.29,54.93a3.53,3.53,0,1,0,3.52-3.52,3.53,3.53,0,0,0-3.52,3.52"/>
+        <path class="cls-8" d="M514.86,33.87a3.52,3.52,0,1,0,3.52-3.52,3.52,3.52,0,0,0-3.52,3.52"/>
+        <path class="cls-1" d="M800,1.13H620s-23.06,0-23.06,23.06v4.64"/>
+        <path class="cls-2" d="M800,105.09H659.92s-23.07,0-23.07-23.06V77.39"/>
+        <path class="cls-9" d="M800,82.16H603.46s-23.06,0-23.06-23.06V56.39"/>
+        <path class="cls-7" d="M576.55,55.73a3.53,3.53,0,1,0,3.53-3.52,3.53,3.53,0,0,0-3.53,3.52"/>
+        <path class="cls-5" d="M633.32,81.88a3.53,3.53,0,1,0,3.52-3.53,3.53,3.53,0,0,0-3.52,3.53"/>
+      </g>
+    </g>
+  </g>
+</svg>

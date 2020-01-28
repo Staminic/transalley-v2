@@ -1,0 +1,22 @@
+// Team Page Styles
+
+.team {
+  font-size: $font-size-body-condensed;
+
+  .card {
+    border: none;
+    font-family: $font-family-condensed;
+  }
+
+  .card-body {
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .card-text {
+    p {
+      margin-bottom: ($spacer * .5);
+    }
+  }
+}

@@ -1,0 +1,70 @@
+// BS Card Custom Styles
+
+.card {
+  border-color: $darkgray;
+  border-radius: 0;
+
+  &.card-horizontal {
+    border: none;
+  }
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-footer {
+  padding-top: 0;
+  background-color: transparent;
+  border-top: none;
+
+  .readmore {
+    margin: 0;
+  }
+}
+
+.residents {
+  .card {
+    border-color: $brandgreen;
+    color: $brandgreen;
+    text-align: center;
+  }
+
+  .card-img-top {
+    object-fit: contain;
+    padding: ($spacer * .5);
+    height: 150px;
+  }
+
+  .card-title {
+    font-family: $font-family-condensed;
+    font-size: $h2-font-size;
+  }
+}
+
+.agenda {
+  .card-header,
+  .card-body,
+  .card-footer {
+    text-align: center;
+  }
+
+  .card-header {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: $brandgreen;
+    border: none;
+    color: $white;
+
+    .h1 {
+      color: $white;
+      font-weight: $font-weight-bold;
+    }
+  }
+}

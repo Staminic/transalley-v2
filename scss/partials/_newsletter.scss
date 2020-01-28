@@ -1,0 +1,12 @@
+
+
+.moduletable {
+  &.newsletter {
+    padding: ($nav-link-padding-y * 2) $nav-link-padding-x;
+    background-color: $yellow;
+
+    .form-control {
+      border: none;
+    }
+  }
+}

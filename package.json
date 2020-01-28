@@ -1,0 +1,41 @@
+{
+  "name": "blank-bootstrap-edition",
+  "version": "5.3.2",
+  "description": "Light, powerful and free template for Joomla!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloggerschmidt/Blank-Bootstrap-Edition.git"
+  },
+  "keywords": [
+    "joomla",
+    "template",
+    "frontend",
+    "bootstrap"
+  ],
+  "author": "Alexander Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bloggerschmidt/Blank-Bootstrap-Edition/issues"
+  },
+  "homepage": "https://github.com/Bloggerschmidt/Blank-Bootstrap-Edition#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "autoprefixer": "^9.4.9",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-zip": "^4.2.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "postcss-flexboxfixer": "0.0.5"
+  },
+  "dependencies": {}
+}

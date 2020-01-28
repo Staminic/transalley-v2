@@ -1,0 +1,26 @@
+// Footer Styles
+
+#footer {
+  background-color: $brandblue;
+  color: $white;
+
+  .nav-link {
+    color: $white;
+    font-family: $font-family-condensed;
+    font-size: $font-size-body-condensed;
+  }
+}
+
+.main-footer {
+  .nav-link-group {
+    padding-left: $nav-link-padding-x;
+  }
+}
+
+.footer-address {
+  padding: 0 ($nav-link-padding-x * 2);
+}
+
+.second-footer {
+  background-color: #ffffff;
+}

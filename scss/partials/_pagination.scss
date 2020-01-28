@@ -1,0 +1,40 @@
+// Page Navigation Styles
+
+// Pagination
+
+.pagination {
+  justify-content: center;
+
+
+  @include media-breakpoint-down(sm) {
+    li:not([class*="pagination-"]) {
+      display: none;
+    }
+  }
+}
+
+.pagenav {
+	position: relative;
+	display: block;
+	padding: .5rem .75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: $black;
+	background-color: $white;
+	border: 1px solid $darkgray;
+
+  &:hover {
+    color: $darkgray;
+  }
+}
+
+.page-item:first-child .pagenav {
+	margin-left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.page-item:last-child .pagenav {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}

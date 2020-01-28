@@ -1,0 +1,18 @@
+// Contact Modules & Forms Styles
+
+.contact-miscinfo {
+  font-size: $font-size-body-condensed;
+  font-weight: $font-weight-bold;
+
+  p {
+    margin-bottom: ($spacer * .5);
+
+    strong {
+      font-weight: $font-weight-bolder;
+    }
+  }
+
+  a {
+    display: none;
+  }
+}
