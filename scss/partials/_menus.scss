@@ -269,9 +269,20 @@
 
 .item-848,
 .item-945 {
-  .dropdown-menu {
-    &.show {
-      width: 60%;
+  .nav-item {
+    @include media-breakpoint-only(mdlg) {
+      width: auto !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .item-848,
+  .item-945 {
+    .dropdown-menu {
+      &.show {
+        width: 60%;
+      }
     }
   }
 }
