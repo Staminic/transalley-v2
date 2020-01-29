@@ -36,7 +36,13 @@
 
       <div class="brand">
         <div class="container d-flex my-1 justify-content-between justify-content-mdlg-start">
-          <a class="navbar-brand" href="<?php echo $this->baseurl; ?>/"><img src="templates/transalley-v2/img/banner-logo.svg" alt="<?php echo $app->getCfg('sitename'); ?>" /></a>
+          <a class="navbar-brand" href="<?php echo $this->baseurl; ?>/">
+            <?php if($this->language == "fr-fr") : ?>
+              <img src="templates/transalley-v2/img/banner-logo.svg" alt="<?php echo $app->getCfg('sitename'); ?>" />
+            <?php else : ?>
+              <img src="templates/transalley-v2/img/banner-logo-en.svg" alt="<?php echo $app->getCfg('sitename'); ?>" />
+            <?php endif; ?>
+          </a>
           <button class="navbar-toggler d-mdlg-none" type="button" data-toggle="collapse" data-target="#nav-modules" aria-controls="nav-modules" aria-expanded="false" aria-label="Navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
           </button>
